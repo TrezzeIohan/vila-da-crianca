@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Just Me Again Down Here';
+    font-weight: 400;
+    src: url(./justmeagaindownhere-regular-webfont.woff2) format('woff2');
+  }
+
+.bg-shell{
+    background-color: #F9F1EC;
+}
+
+.cor-laranja{
+    color: #D98C53;
+}
+
+p{
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 1.80rem;
+}
