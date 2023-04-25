@@ -8,11 +8,36 @@
     background-color: #F9F1EC;
 }
 
+.bg-laranja{
+    background-color: #D98C53;
+}
+
 .cor-laranja{
     color: #D98C53;
 }
 
-p{
+.cor-branco{
+    color: #ffff;
+}
+
+.cor-pbr{
+    color: #AE5641;
+}
+
+h1, h2, h3, h4, h5, p{
     font-family: 'Just Me Again Down Here', cursive;
+}
+
+h2{
+
+    font-weight: bold;
+    font-size: 3.0rem !important;
+}
+
+p{
     font-size: 1.80rem;
+}
+
+i{
+    cursor: pointer;
 }
