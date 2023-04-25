@@ -24,8 +24,14 @@
     color: #AE5641;
 }
 
-h1, h2, h3, h4, h5, p{
-    font-family: 'Just Me Again Down Here', cursive;
+h1, h2, h3, h4, h5, p, button, a{
+    font-family: 'Just Me Again Down Here', cursive !important;
+}
+
+.rf{
+    font-family: Arial, Helvetica, sans-serif !important;
+    
+    font-size: 1.2rem;
 }
 
 h2{
@@ -41,3 +47,11 @@ p{
 i{
     cursor: pointer;
 }
+
+
+.card-img-top {
+    width: 100% !important;
+    height: 20vw !important;
+    object-fit: cover !important;
+}
+
