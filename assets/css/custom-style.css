@@ -12,12 +12,20 @@
     background-color: #D98C53;
 }
 
+.bg-pbr{
+   background-color: #AE5641 !important; 
+}
+
+.bg-verde{
+    background-color: #475433 !important;
+}
+
 .cor-laranja{
     color: #D98C53;
 }
 
 .cor-branco{
-    color: #ffff;
+    color: #ffff !important;
 }
 
 .cor-pbr{
@@ -40,13 +48,29 @@ h2{
     font-size: 3.0rem !important;
 }
 
+h3{
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+
 p{
     font-size: 1.80rem;
+}
+
+a{
+    font-size: 1.50rem !important;
+    
+}
+
+a:hover{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
 
 i{
     cursor: pointer;
 }
+
+
 
 
 .card-img-top {
