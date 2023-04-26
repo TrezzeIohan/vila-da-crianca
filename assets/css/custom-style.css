@@ -4,12 +4,35 @@
     src: url(./justmeagaindownhere-regular-webfont.woff2) format('woff2');
   }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url(./montserrat-regular-webfont.woff2) format('woff2');
+  }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url(./montserrat-semibold-webfont.woff2) format('woff2');
+  }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url(./montserrat-bold-webfont.woff2) format('woff2');
+  }
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+  
 .bg-shell{
     background-color: #F9F1EC;
 }
 
 .bg-laranja{
-    background-color: #D98C53;
+    background-color: #D98C53 !important;
 }
 
 .bg-pbr{
@@ -32,38 +55,9 @@
     color: #AE5641;
 }
 
-h1, h2, h3, h4, h5, p, button, a{
-    font-family: 'Just Me Again Down Here', cursive !important;
-}
 
-.rf{
-    font-family: Arial, Helvetica, sans-serif !important;
-    
-    font-size: 1.2rem;
-}
-
-h2{
-
-    font-weight: bold;
-    font-size: 3.0rem !important;
-}
-
-h3{
-    font-size: 1.5rem !important;
-    font-weight: bold !important;
-}
-
-p{
-    font-size: 1.80rem;
-}
-
-a{
-    font-size: 1.50rem !important;
-    
-}
-
-a:hover{
-    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+a:hover, button:hover{
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
 }
 
 i{
