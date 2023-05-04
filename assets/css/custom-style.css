@@ -76,3 +76,6 @@ i{
     object-fit: cover !important;
 }
 
+a:hover{
+    background-image: none;
+}
