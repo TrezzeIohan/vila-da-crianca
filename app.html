@@ -226,7 +226,7 @@
                               
 
                         </div>
-
+                        <!--Visão em cards-->
                         <div class="container mt-4 cards">
                           <div class="row"><div class="col-12 mb-4">
                             <form action="POST">
@@ -385,20 +385,20 @@
                               </div>
                           </div>
             
-                        </div>
-
-                        <div class="row d-flex align-self-center bg-verde round mt-5">
-                          <div class="col-12">
-                            <div id="keyboard"></div>
-                            <div id="keyboard_numeric"></div>
-                          </div>
-                        </div>
-                      </div>                      
+                        </div>                       
+                      </div>
+                      
+                      
+                      <!--Teclado-->
+                      <div class="col-10 d-flex align-items-center justify-content-center bg-verde round mt-5 position-fixed bottom-0 end-0 d-none" id="area-do-teclado">
+                        <div id="keyboard"></div>
+                        <div id="keyboard_numeric"></div>
+                      </div>
                     </div>
 
                     
-                    
-                  
+
+                                                    
         </div>
     </div>
 
@@ -408,7 +408,6 @@
 
 <!--Instalando o teclado-->
 <script src="assets/teclado/ckeyboard.min.js"></script>
-
 <!--Fazendo ele funcionar em inputs de texto-->
 <script src="assets/js/teclado.js"></script>
 
