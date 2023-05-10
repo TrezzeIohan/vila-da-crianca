@@ -35,8 +35,7 @@
                             <h2 class="cor-branco text-center">Estoque</h2>
                             <p class="cor-branco text-center">Registre as saídas aqui</p>
                         </div>
-
-                        
+              
                         <!-- Visão em tabelas caso haja interesse em futura implementação -->
                         <div class="col-12 d-flex table-responsive-lg d-none" id="tabela">
 
@@ -226,7 +225,16 @@
 
                         </div>
 
-                        <div class="container mt-3 cards">
+                        <div class="container mt-4 cards">
+                          <div class="row"><div class="col-12 mb-4">
+                            <form action="POST">
+                              <div class="form-group d-flex align-items-center p-2">
+                                <input type="text" class="form-control" id="pesquisa" placeholder="Pesquise um produto" rows="1">
+                                <button type="submit" class="btn btn-primary ms-2">Pesquisar</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
                           <div class="row d-flex justify-content-around row-cols-lg-3 row-cols-md-2 row-cols-1 gy-5" id="card">
                             
                           <div class="col d-flex justify-content-center">
