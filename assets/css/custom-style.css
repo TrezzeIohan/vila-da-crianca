@@ -48,7 +48,11 @@
 }
 
 .bg-amarelo{
-    background-color: #D7A047;
+    background-color: #D7A047 !important;
+}
+
+.bg-test{
+    background-color: #E1A678 !important;
 }
 
 .cor-laranja{
