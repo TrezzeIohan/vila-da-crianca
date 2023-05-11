@@ -10,7 +10,7 @@ function teclado(){
 
 
     //Altera qual é o alvo do teclado com base na id configurada como input_selected
-    const textInputs = document.querySelectorAll('input[type="text"]');
+    const textInputs = document.querySelectorAll('input');
     textInputs.forEach(input => {
         input.addEventListener('focus', alvoDoTeclado);
     });
