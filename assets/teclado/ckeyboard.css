@@ -10,28 +10,28 @@
 
 .cK.cKKey, .cK.cKFunction {
 	font-weight: bold;
-	font-size: 34px;
-	display: inline-block;
-	border-radius: 6px;
-	border: 1px solid lightgray;
-	background-color: #fff;
-	color: #000;
-	margin: 5px 8px;
-	padding: 0 15px;
-	min-width: 70px;
-	height: 70px;
-	box-sizing: border-box;
-	text-align: center;
-	line-height: 70px;
-	overflow: hidden;
-	cursor: pointer;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: -moz-none;
-	-ms-user-select: none;
-	user-select: none;
-	outline: 0;
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    color: #000;
+    margin: 5px 8px;
+    padding: 0 0.5rem;
+    min-width: 2rem;
+    height: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0;
 }
 
 .cK.cKKey.uppercase {

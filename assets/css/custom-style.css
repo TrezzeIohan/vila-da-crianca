@@ -98,3 +98,8 @@ a:hover{
 .custom-shadow{
     box-shadow: 4.3px 8.6px 8.6px hsl(0deg 0% 0% / 0.37);
 }
+
+#area-do-teclado{
+    position: sticky;
+    bottom: 0;
+}
