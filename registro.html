@@ -182,9 +182,12 @@
     <script src="assets/data-table/data-table.js"></script>
   <!--Iniciando o plugin de tabelas-->
     <script>
-        $(document).ready( function () {
-          $('#data-table').DataTable();
+        $('#data-table').dataTable( {
+      "initComplete": function(settings) {
+          }
         } );
+
+        
   </script>
 
   <!--Instalando o teclado-->

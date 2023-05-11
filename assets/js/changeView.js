@@ -14,7 +14,7 @@ function changeView(){
   
     let cabecalho = document.getElementById('cabecalho');
     cabecalho.appendChild(aviso);
-    console.log('rem');
+    
   }
   else {
     let tabela = document.getElementById('tabela');
@@ -23,7 +23,7 @@ function changeView(){
     let aviso = document.getElementById('aviso');
 
     aviso.remove();
-    console.log('foo');
+    
   }
 }
 
