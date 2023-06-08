@@ -26,9 +26,17 @@ function teclado(){
    
     }
     catch (e) {
-    }   
         const focusedElement = document.activeElement;
-        focusedElement.setAttribute('id', 'input_selected');
+
+        if (
+            focusedElement.tagName !== 'INPUT' &&
+            (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') !== 'number')
+          ) {
+            focusedElement.setAttribute('id', 'input_selected');
+          }
+        
+    }   
+        
     }
 
  
@@ -44,7 +52,7 @@ function controlarDisplayTeclado(){
     document.addEventListener('click', function(event) {
 
         // Se o clique acontecer em um elemento input, mostrar teclado
-        if(event.target.tagName == 'INPUT'){
+        if(event.target.tagName == 'INPUT' && (event.target.getAttribute('type') !== 'number')){
             kboard.classList.remove('d-none');
         }
         // Se o clique acontecer fora da área do teclado, esconder teclado

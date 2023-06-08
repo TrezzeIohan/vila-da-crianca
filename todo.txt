@@ -1,4 +1,4 @@
-/1 - (USAR UM DROPDOWN NAS OPÇÕES D DESTINAÇÃO, COM POSSIBILIDADE DE COLOCAR UM CUSTOMIZADO) Criar uma página para a exibição individual do prato com possibilidade de seleção de quantidade e destinação
+/1 - (USAR UM DROPDOWN NAS OPÇÕES D DESTINAÇÃO, COM POSSIBILIDADE DE COLOCAR UM CUSTOMIZADO, ADICIONAR UM BOTÃO PARA VOLTAR) Criar uma página para a exibição individual do prato com possibilidade de seleção de quantidade e destinação
 2 - Colocar um teclado numérico para a seleção de quantidade
 //3 - Alterar a visão máxima de pratos por linha de 4 para 3.//
 4 - Criar uma página de ingredientes acessível pela aba lateral. Nessa página os ingredientes disponíveis são mostra_
