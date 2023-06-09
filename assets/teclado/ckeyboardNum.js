@@ -47,10 +47,5 @@ function cKeyboardNum() {
     }),
         $("body").on(cKeyboardNum_config.interation_mode, ".cK.cKFunction.cKey-backspace", function () {
             $(cKeyboardNum_config.input_target).val($(cKeyboardNum_config.input_target).val().slice(0));
-        }),
-        $("body").on(cKeyboardNum_config.interation_mode, ".cK.cKFunction.cKey-abc-switch", function () {
-            $.when($(cKeyboardNum_config.target_numeric).fadeOut()).done(function () {
-                $(cKeyboardNum_config.target).fadeIn();
-            });
-        });
+        })
 }

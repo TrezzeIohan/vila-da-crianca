@@ -82,7 +82,11 @@
 
         <!--Teclado-->
         <div class="col-12 d-flex align-items-center justify-content-center bg-alblue rounded mt-5 bottom-0 end-0 d-none custom-shadow" id="area-do-teclado">
-          <div id="keyboard"></div>         
+          <div id="keyboard"></div>
+          <!--Normalmente não é necessário criar a div "keyboard_numeric", mas o
+          keyboard numérico customizado interfere no keyboard normal por algum motivo
+          e faz com que a div a seguir não seja normalmente criada-->
+          <div id="keyboard_numeric"></div>
         </div>
         
         <!--Teclado Numerico-->

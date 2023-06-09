@@ -5,8 +5,7 @@ function teclado(){
     cKeyboard();
 
     
-    // Elemento da página correspondente à área do teclado
-    const kboard = document.getElementById('area-do-teclado');
+    
 
 
     //Altera qual é o alvo do teclado com base na id configurada como input_selected
