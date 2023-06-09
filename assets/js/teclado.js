@@ -5,7 +5,8 @@ function teclado(){
     cKeyboard();
 
     
-    
+    // Elemento da página correspondente à área do teclado
+    const kboard = document.getElementById('area-do-teclado');
 
 
     //Altera qual é o alvo do teclado com base na id configurada como input_selected
@@ -22,6 +23,19 @@ function teclado(){
     try {
         const elementoAntigo = document.getElementById('input_selected');
         elementoAntigo.removeAttribute('id');
+        if (elementoAntigo.getAttribute('type') !== 'number' & document.activeElement !== elementoAntigo){
+            
+            document.activeElement.setAttribute('id', 'input_selected');
+        }
+        else{
+            const focusedElement = document.activeElement;
+
+            if (
+                (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') !== 'number')
+              ) {
+                focusedElement.setAttribute('id', 'input_selected');
+              }
+        }
    
     }
     catch (e) {

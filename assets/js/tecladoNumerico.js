@@ -18,7 +18,19 @@ function tecladoNum(){
     // com a id correspondente, dá essa id para o clicado
     try {
         const elementoAntigo = document.getElementById('input_selected');
-        elementoAntigo.removeAttribute('id');
+        if (elementoAntigo.getAttribute('type') == 'number'){
+            elementoAntigo.removeAttribute('id');
+        }
+        else{
+            const focusedElement = document.activeElement;
+
+            if (
+                (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') === 'number')
+              ) {
+                focusedElement.setAttribute('id', 'input_selected');
+              }
+        }
+        
    
     }
     catch (e) {
