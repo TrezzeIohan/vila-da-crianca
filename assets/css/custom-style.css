@@ -71,6 +71,10 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.bg-azul{
+    background-color: #60A6DC;
+}
+
 
 
 a:hover, button:hover{
@@ -95,6 +99,12 @@ tbody{
     object-fit: cover !important;
 }
 
+.img-ingrediente {
+    width: 100% !important;
+    height: 8vw !important;
+    object-fit: cover !important;
+}
+
 a:hover{
     background-image: none;
 }
@@ -107,3 +117,5 @@ a:hover{
     position: sticky;
     bottom: 0;
 }
+
+
