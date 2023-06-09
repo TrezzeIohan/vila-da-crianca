@@ -28,7 +28,6 @@ function tecladoNum(){
             (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') === 'number')
           ) {
             focusedElement.setAttribute('id', 'input_selected');
-            console.log(focusedElement);
           }
         
     }   
