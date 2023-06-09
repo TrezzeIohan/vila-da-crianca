@@ -82,9 +82,14 @@
 
         <!--Teclado-->
         <div class="col-12 d-flex align-items-center justify-content-center bg-alblue rounded mt-5 bottom-0 end-0 d-none custom-shadow" id="area-do-teclado">
-          <div id="keyboard"></div>
-          <div id="keyboard_numeric"></div>
+          <div id="keyboard"></div>         
         </div>
+        
+        <!--Teclado Numerico-->
+        <div class="col-12 d-flex align-items-center justify-content-center bg-alblue rounded mt-5 bottom-0 end-0 d-none custom-shadow" id="area-do-teclado-numerico">
+          <div id="keyboardNum"></div>
+        </div>
+        
       </div>
     </div>
 
@@ -92,22 +97,16 @@
     <script src="assets/bootstrap/bootstrap.min.js"></script>
     
     
-    <!--Script para pedir a mudança de direção nos casos de aplicativo móvel-->
-    <script src="assets/js/changeView.js"></script>
     
-    <!--Plugin de tabelas-->
-    <script src="assets/data-table/data-table.js"></script>
-  <!--Iniciando o plugin de tabelas-->
-    <script>
-        $('#data-table').dataTable( {
-      "initComplete": function(settings) {
-          }
-        } );    
-  </script>
 
-  <!--Instalando o teclado-->
+  <!--Instalando o teclado não numérico-->
   <script src="assets/teclado/ckeyboard.min.js"></script>
   <!--Configurações do teclado-->
   <script src="assets/js/teclado.js"></script>
+
+  <!--Instalando o teclado numérico-->
+  <script src="assets/teclado/ckeyboardNum.js"></script>
+  <!--Configurações do teclado numérico-->
+  <script src="assets/js/tecladoNumerico.js"></script>
 </body>
 </html>

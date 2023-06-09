@@ -6,3 +6,6 @@ dos por meio de uma data-table. Cada célula deverá conter uma imagem e Nome do
 Valor de custo e, por fim, Valor de venda.
 
 
+PseudoCODE:
+
+

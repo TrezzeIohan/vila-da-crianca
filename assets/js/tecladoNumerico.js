@@ -1,16 +1,12 @@
-//Teclado
-function teclado(){
+function tecladoNum(){
     // Configurações iniciais do teclado
-    cKeyboard_config.input_target = '#input_selected';
-    cKeyboard();
-
-    
-    // Elemento da página correspondente à área do teclado
-    const kboard = document.getElementById('area-do-teclado');
+    cKeyboardNum_config.input_target = '#input_selected';
+    cKeyboardNum();
+ 
 
 
     //Altera qual é o alvo do teclado com base na id configurada como input_selected
-    const inputs = document.querySelectorAll('input:not([type="number"])');
+    const inputs = document.querySelectorAll('input[type="number"]');
     inputs.forEach(input => {
         input.addEventListener('click', alvoDoTeclado);
     });
@@ -29,9 +25,10 @@ function teclado(){
         const focusedElement = document.activeElement;
 
         if (
-            (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') !== 'number')
+            (focusedElement.tagName === 'INPUT' && focusedElement.getAttribute('type') === 'number')
           ) {
             focusedElement.setAttribute('id', 'input_selected');
+            console.log(focusedElement);
           }
         
     }   
@@ -43,25 +40,27 @@ function teclado(){
 }
 
 // Controla o display do teclado
-function controlarDisplayTeclado(){
+function controlarDisplayTecladoNum(){
     // Elemento da página correspondente à área do teclado
-    const kboard = document.getElementById('area-do-teclado');
+    const kboard = document.getElementById('area-do-teclado-numerico');
      
     // Definir um evento para disparar a função
     document.addEventListener('click', function(event) {
 
         // Se o clique acontecer em um elemento input, mostrar teclado
-        if(event.target.tagName == 'INPUT' && (event.target.getAttribute('type') !== 'number')){
+        if(event.target.tagName == 'INPUT' && (event.target.getAttribute('type') == 'number')){
             kboard.classList.remove('d-none');
+        
         }
         // Se o clique acontecer fora da área do teclado, esconder teclado
-        else if (!event.target.closest('#area-do-teclado')) { 
-            kboard.classList.add('d-none'); 
+        else if (!event.target.closest('#area-do-teclado-numerico')) { 
+            kboard.classList.add('d-none');
+            
         } 
     });
 }
 
 
 
-document.addEventListener('DOMContentLoaded', teclado);
-document.addEventListener('DOMContentLoaded', controlarDisplayTeclado);
+document.addEventListener('DOMContentLoaded', tecladoNum);
+document.addEventListener('DOMContentLoaded', controlarDisplayTecladoNum);
