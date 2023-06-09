@@ -25,9 +25,6 @@ var cKeyboardNum_config = {
             " 0 ": { name: "0", text: "0", class: "cKKey" }, 
             
         },
-        {            
-           
-        },
         {          
             backspace: { name: "backspace", text: "", class: "cKFunction" },        
             return: { name: "return", text: "Return", class: "cKFunction" },      
